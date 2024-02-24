@@ -1,14 +1,18 @@
 import classes from './Navbar.module.css'
+import Button from '../Button/Button.jsx'
+import Logo from '../Logo/Logo'
+import CartWidget from '../CartWidget/CartWidget.jsx'
 
 const Navbar = () => {
     return (
         <header className={classes.header}>
-            <h2>Eleva Fit</h2>
+            <Logo/>
             <nav>
-                <a className='btn btn-primary'>Bikers</a>
-                <a>Remeras</a>
-                <a>Tops</a>
+                <Button texto= "Remeras"/>
+                <Button texto= "Bickers"/>
+                <Button texto= "Tops"/>
             </nav>
+            <CartWidget/>
         </header>
     )
 }

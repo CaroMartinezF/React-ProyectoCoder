@@ -1,0 +1,16 @@
+.button{
+    background-color: #DA209B;
+    border-color: #DA209B;
+    width: 9.375rem;
+    height: 3.125rem;
+    margin: .625rem;
+    padding: .625rem;
+    border-radius: .9375rem;
+    color: white;
+}
+
+.button:hover{
+    background-color: white;
+    border-color: white;
+    color: #DA209B;
+}
