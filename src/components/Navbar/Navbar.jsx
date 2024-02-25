@@ -5,7 +5,7 @@ import CartWidget from '../CartWidget/CartWidget.jsx'
 
 const Navbar = () => {
     return (
-        <header className={classes.header}>
+        <header className={classes.header + " " + "bg-dark"}>
             <Logo/>
             <nav>
                 <Button texto= "Remeras"/>

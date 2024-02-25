@@ -3,7 +3,7 @@ import classes from './ItemListContainer.module.css'
 const ItemListContainer =(props)=>{
     return (
         <div>
-            <h1 className={classes.greeting}>{props.greeting}</h1>
+            <h1 className={classes.greeting + " " +  "bg-secondary text-light"}>{props.greeting}</h1>
         </div>
     )
 }
