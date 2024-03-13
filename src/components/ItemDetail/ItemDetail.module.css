@@ -1,3 +1,18 @@
-/* .itemDetailContainer{
+.itemDetail{
     background-color: black;
-} */
+    color: #DA209B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.imagen{
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 10px;
+    width: 15.625rem
+}
+
+.retorno{
+    color: #DA209B;
+    text-decoration: none;
+}

@@ -3,3 +3,21 @@
     justify-content: space-between;
     align-items: center;
 }
+.button{
+    background-color: #DA209B;
+    border-color: #DA209B;
+    text-align: center;
+    width: 9.375rem;
+    height: 3.125rem;
+    margin: .625rem;
+    padding: .625rem;
+    border-radius: .9375rem;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: white;
+    border-color: white;
+    color: #DA209B;
+}
